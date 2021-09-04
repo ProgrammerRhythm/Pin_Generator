@@ -61,7 +61,19 @@ color: #fff;
 .calc-button-row {
 width: 100%;
 }
-
+.show{
+    width: 70%;
+background: #425062;
+color: #fff;
+padding: 20px 0;
+margin: 5px;
+display: inline-block;
+font-size: 20px;
+text-align: center;
+vertical-align: middle;
+margin-right: -4px;
+border-radius: 10px;
+}
 .button {
 width: 20%;
 background: #425062;

@@ -11,7 +11,7 @@ function getPin() {
 }
 function generatePin() {
     const pin = getPin();
-    document.getElementById('display-pin').value = pin;
+    document.getElementById('display-pin').innerText = pin;
 }
 
 document.getElementById('key-pad').addEventListener('click', function (event) {
@@ -30,7 +30,7 @@ document.getElementById('key-pad').addEventListener('click', function (event) {
 });
 
 function verifyPin() {
-    const pin = document.getElementById('display-pin').value;
+    const pin = document.getElementById('display-pin').innerText;
     const typedNumbers = document.getElementById('typed-numbers').value;
     const successMessage = document.getElementById('notify-success');
     const failError = document.getElementById('notify-fail');
